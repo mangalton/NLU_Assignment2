@@ -1,0 +1,48 @@
+
+============================================================
+MODEL 1: Vanilla RNN
+============================================================
+  Trainable params : 23,708
+  Epoch  30/150  loss=14.4852
+  Epoch  60/150  loss=13.8811
+  Epoch  90/150  loss=13.5327
+  Epoch 120/150  loss=13.2830
+  Epoch 150/150  loss=13.0841
+  Training time: 67.0s  |  Final loss: 13.0841
+  Sample: ['Chitala', 'Kedramale', 'Devakarun', 'Kandav', 'Ragina', 'Ashind', 'Avitu', 'Samali']
+
+============================================================
+MODEL 2: Bidirectional LSTM
+============================================================
+  Trainable params : 104,120
+  Epoch  30/150  loss=7.9531
+  Epoch  60/150  loss=7.5121
+  Epoch  90/150  loss=7.2913
+  Epoch 120/150  loss=7.1389
+  Epoch 150/150  loss=7.0192
+  Training time: 273.1s  |  Final loss: 7.0192
+  Sample: ['Durgaja', 'Kbavnaki', 'Jamila', 'Goghak', 'Aguvuna', 'Eena', 'Arisha', 'Ruthila']
+
+============================================================
+MODEL 3: RNN + Attention
+============================================================
+  Trainable params : 76,700
+  Epoch  30/150  loss=12.9287
+  Epoch  60/150  loss=12.0200
+  Epoch  90/150  loss=11.4392
+  Epoch 120/150  loss=11.0102
+  Epoch 150/150  loss=10.6719
+  Training time: 308.5s  |  Final loss: 10.6719
+  Sample: ['Chandal', 'Keetanaan', 'Devakanta', 'Kapal', 'Vimal', 'Anavya', 'Indur', 'Sitana']
+
+============================================================
+TRAINING SUMMARY
+============================================================
+Model                    Params     Loss    Time(s)
+----------------------------------------------------
+Vanilla RNN              23,708  13.0841       67.0
+BLSTM                   104,120   7.0192      273.1
+RNN+Attention            76,700  10.6719      308.5
+
+Loss curves saved to /Users/mangaltonokram/Word2Vec Assignment-NLU1/outputs/Name_LSTM-NLU2/outputs/training_losses.csv
+All generated names saved to outputs/
