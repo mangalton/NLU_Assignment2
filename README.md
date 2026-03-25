@@ -9,6 +9,8 @@
 
 ## Overview
 
+after cloning the github repo, to run this, go to M25CSE018-A2-Problem1 folder.
+
 This project implements Word2Vec entirely from scratch using NumPy, trained on a custom IIT Jodhpur corpus. Both **CBOW** (Continuous Bag of Words) and **Skip-gram** architectures are built with **Negative Sampling**, and the custom implementation is benchmarked against Gensim's Word2Vec.
 
 ---
@@ -158,6 +160,7 @@ All outputs (plots, logs, model files, JSON results) are saved to `./outputs/`.
 ---
 
 ## Overview
+after cloning the github repo, to run, go to M25CSE018-A2-Problem2 folder.
 
 This project implements three character-level language models from scratch using NumPy (no deep learning frameworks) for the task of **generative name synthesis**. All models are trained on a dataset of 948 Indian names and evaluated on novelty, diversity, and training loss reduction.
 
